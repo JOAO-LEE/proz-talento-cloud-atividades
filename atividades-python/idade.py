@@ -12,10 +12,10 @@ def calc_age():
       print("Insira o seu ano de nascimento:")
       birth = int(input())
       if birth < 1922 or birth > 2021:
-        raise Exception("Ano deve ser maior que 1922 e menor que 2021")
+        print("Ano deve ser maior que 1922 e menor que 2021")
       else: 
         print(f"Seu nome é {name} e você fará {2022 - birth} em 2022")
-    except Exception as error:
-      print(error)
+    except:
+      print("O ano deve ser um valor numérico válido!")
 
 calc_age()
