@@ -18,4 +18,42 @@ def calc_age():
     except:
       print("O ano deve ser um valor numérico válido!")
 
-calc_age()
+# calc_age()
+
+
+# for i in range(5, 0, -1):
+  # print(f"Regando planta {i}")
+
+
+
+
+# counter = 5
+# while counter >= 0:
+#   print(f"Regando planta {counter}")
+#   counter -= 1
+
+
+# def tabuada(num):
+#   counter = 0
+#   while counter <= 10:
+#     print(f"{num} X {counter} = {num * counter}")
+#     counter += 1
+# tabuada(2)
+
+
+# def mostrarNumero():
+#   numero_valido = False
+#   while(numero_valido == False):
+#     try:
+#       num = int(input())
+#       if num % 2 == 1:
+#         print("Número não é par :/")
+#       elif num % 3 > 0 or num == 2:
+#         print("Número não é divísivel por três")
+#       else:
+#         numero_valido= True
+#         print(f"O número {num} é par e divísivel por 3 :D")
+#     except:
+#       print("Precisa digitar um número par")
+
+# mostrarNumero()
