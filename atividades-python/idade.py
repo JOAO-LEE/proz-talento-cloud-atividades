@@ -3,20 +3,20 @@
 
 # Caso o usuário não digite um número ou apareça um inválido no campo do ano, o sistema informará o erro e continuará perguntando até que um valor correto seja preenchido.
 
-def calc_age():
-  running = True
-  while running:
-    try:
-      print("Insira seu nome:")
-      name = input()
-      print("Insira o seu ano de nascimento:")
-      birth = int(input())
-      if birth < 1922 or birth > 2021:
-        print("Ano deve ser maior que 1922 e menor que 2021")
-      else: 
-        print(f"Seu nome é {name} e você fará {2022 - birth} em 2022")
-    except:
-      print("O ano deve ser um valor numérico válido!")
+# def calc_age():
+#   running = True
+#   while running:
+#     try:
+#       print("Insira seu nome:")
+#       name = input()
+#       print("Insira o seu ano de nascimento:")
+#       birth = int(input())
+#       if birth < 1922 or birth > 2021:
+#         print("Ano deve ser maior que 1922 e menor que 2021")
+#       else: 
+#         print(f"Seu nome é {name} e você fará {2022 - birth} em 2022")
+#     except:
+#       print("O ano deve ser um valor numérico válido!")
 
 # calc_age()
 
@@ -57,3 +57,18 @@ def calc_age():
 #       print("Precisa digitar um número par")
 
 # mostrarNumero()
+
+def find_item(item, arr): 
+
+  while True:
+    for i in range(len(arr)):
+      if arr[i] == item:
+        print(f"Achado o item {item}")
+        return 0
+      else:
+        print(f"Não achado o item {item}")
+        return 1
+    # break
+
+
+find_item("Pão", ["Queijo", "Presunto", "Salame"])
