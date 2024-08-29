@@ -8,7 +8,12 @@ print(lista_produtos)
 lista_produtos[4] = "cremes hidratantes"
 print(lista_produtos)
 
+# Sendo o último elemento da lista: 
 lista_produtos.pop()
+print(lista_produtos)
+
+# Estando em qualquer posição
+lista_produtos.remove("delineadores")
 print(lista_produtos)
 
 # Como desafio, adicione dois novos produtos da sua escolha à lista. 
