@@ -13,8 +13,8 @@ lista_produtos.pop()
 print(lista_produtos)
 
 # Estando em qualquer posição
-lista_produtos.remove("delineadores")
-print(lista_produtos)
+# lista_produtos.remove("delineadores")
+# print(lista_produtos)
 
 # Como desafio, adicione dois novos produtos da sua escolha à lista. 
 
