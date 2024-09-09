@@ -17,7 +17,6 @@ print(lista_produtos)
 # print(lista_produtos)
 
 # Como desafio, adicione dois novos produtos da sua escolha à lista. 
-
 lista_produtos.append("liptint")
 lista_produtos.append("paleta de cores")
 print(lista_produtos)
