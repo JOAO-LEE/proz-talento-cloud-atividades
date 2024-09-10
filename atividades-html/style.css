@@ -1,0 +1,96 @@
+.cabecalho {
+  padding: 10px 5px;
+  border-bottom: .55rem solid darkkhaki;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: large;
+  word-spacing: 0.2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.45rem;
+}
+
+.cabecalho h1 {
+  padding: 1rem;
+  background-color: darkkhaki;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.principal {
+  padding: 10px 10px;
+  background-color: lightblue;
+}
+
+
+.container-sobre-texto {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.container-sobre-texto  p {
+  padding: 10px 5px;
+  background-color: darkkhaki;
+  color: white;
+
+}
+
+#sobre-titulo {
+  text-align: center;
+  width: 25%;
+  padding: 1rem;
+  color: white;
+  background-color: darkkhaki;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.subtitulo {
+  padding: 1rem;
+  color: white;
+  background-color: darkkhaki;
+  font-size: x-large;
+  text-decoration: underline;
+  width: max-content;
+
+}
+
+.lista-lugares {
+  list-style: none;
+}
+
+.titulo-item {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  background-color: darkkhaki;
+  width: max-content;
+  padding: 5px;
+  color: white;
+}
+
+.lugar-conteudo {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+.link {
+  background-color: darkkhaki;
+  color: white;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.imagem-item {
+  display: block;
+  object-fit: cover;
+  min-width: 500px;
+  height: 300px;
+}
+
+.rodape {
+  background-color: darkkhaki;
+  color: white;
+  padding: 10px;
+}
