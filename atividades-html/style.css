@@ -1,4 +1,5 @@
 .cabecalho {
+  display: flex;
   padding: 10px 5px;
   border-bottom: .55rem solid darkkhaki;
   background-color: cornflowerblue;
@@ -7,6 +8,8 @@
   word-spacing: 0.2rem;
   text-decoration: underline;
   text-underline-offset: 0.45rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cabecalho h1 {
@@ -14,6 +17,22 @@
   background-color: darkkhaki;
   display: inline-block;
   border-radius: 25px;
+}
+
+.navegacao ul {
+  list-style: none;
+  display: flex;
+  gap: .5rem;
+}
+
+.navegacao ul li {
+background-color: darkkhaki;
+padding: 5px;
+}
+
+.navegacao-link {
+  color: white;
+  text-decoration: none;
 }
 
 .principal {
@@ -32,7 +51,6 @@
   padding: 10px 5px;
   background-color: darkkhaki;
   color: white;
-
 }
 
 #sobre-titulo {
@@ -52,7 +70,6 @@
   font-size: x-large;
   text-decoration: underline;
   width: max-content;
-
 }
 
 .lista-lugares {
