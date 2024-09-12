@@ -5,9 +5,8 @@
 
 const linksList = [
   "https://github.com/JOAO-LEE",
-  "https://google-clone-eta-henna.vercel.app/",
-  "https://x-clone-tan-seven.vercel.app/",
   "https://linkedin.com/in/joao-lee-lima",
+  "https://x-clone-tan-seven.vercel.app/",
 ];
 
 const title = document.querySelector("#titulo");
@@ -25,6 +24,7 @@ for (let index = 0; index < 3; index++) {
   };</li>`;
 }
 
-for (let index = 0; index < linksList.length; index++) {
-  orderedList.innerHTML += `<li><a href=${linksList[index]}>${linksList[index]}</a></li>`;
-}
+orderedList.innerHTML = `<li><a href=${linksList[0]}>Meu GitHub!</a></li>
+  <li><a href=${linksList[1]}>Meu LinkedIn</a></li>
+  <li><a href=${linksList[2]}>Clone do X (antigo Twitter)</a></li>
+  `;
