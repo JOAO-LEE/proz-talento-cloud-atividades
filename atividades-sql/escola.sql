@@ -1,0 +1,6 @@
+CREATE TABLE ESCOLA (
+  ID serial PRIMARY KEY,
+  nome VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL, 
+  endereco VARCHAR(50) NOT NULL,
+);
