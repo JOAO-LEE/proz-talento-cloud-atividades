@@ -2,7 +2,7 @@ CREATE TABLE gravadora (
   ID SERIAL PRIMARY KEY,
   nome VARCHAR(50) not NULL,
   sede VARCHAR(50) not NULL
-)
+);
 
 CREATE TABLE artista (
   id SERIAL PRIMARY KEY,
@@ -10,7 +10,7 @@ CREATE TABLE artista (
   idade INT NOT NULL,
   gravadora_id INT,
   FOREIGN KEY (gravadora_id) REFERENCES gravadora(id)
-)
+);
 
 CREATE TABLE album (
   ID SERIAL PRIMARY KEY,
@@ -18,7 +18,7 @@ CREATE TABLE album (
   duracao FLOAT not NULL,
   artista_id INT,
   FOREIGN KEY (artista_id) REFERENCES artista(id)
-)
+);
 
 INSERT INTO gravadora (nome, sede) VALUES
 ('Universal Music', 'Los Angeles'),
@@ -40,3 +40,11 @@ INSERT INTO album (nome, duracao, artista_id) VALUES
 ('Guitar Legends', 60.2, 3),
 ('Rise Up', 35.8, 4),
 ('The River Flows', 48.7, 5);
+
+SELECT * FROM artista
+INNER JOIN gravadora
+ON gravadora.id = artista.gravadora_id;
+
+SELECT * FROM album
+RIGHT JOIN artista
+ON artista.id = album.artista_id;
