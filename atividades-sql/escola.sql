@@ -1,6 +1,9 @@
 CREATE TABLE ESCOLA (
-  ID serial PRIMARY KEY,
-  nome VARCHAR(50) NOT NULL,
-  email VARCHAR(50) NOT NULL, 
-  endereco VARCHAR(50) NOT NULL,
+  ID INT AUTO_INCREMENT PRIMARY KEY, 
+    
+    nome VARCHAR(100),
+    
+    email VARCHAR(100),
+    
+    endereco VARCHAR(255)
 );
